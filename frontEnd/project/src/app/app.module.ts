@@ -10,11 +10,8 @@ import { FeedbackComponent } from './components/common/feedback/feedback.compone
 import { VideoComponent } from './components/common/video/video.component';
 import { ProcessComponent } from './components/common/process/process.component';
 import { HeaderOneComponent } from './components/layouts/header-one/header-one.component';
-import { HomeTwoComponent } from './components/pages/home-two/home-two.component';
 import { PartnerComponent } from './components/common/partner/partner.component';
 import { HeaderTwoComponent } from './components/layouts/header-two/header-two.component';
-import { HomeThreeComponent } from './components/pages/home-three/home-three.component';
-import { HomeFourComponent } from './components/pages/home-four/home-four.component';
 import { InstagramComponent } from './components/common/instagram/instagram.component';
 import { HeaderThreeComponent } from './components/layouts/header-three/header-three.component';
 import { AboutComponent } from './components/pages/about/about.component';
@@ -58,11 +55,8 @@ import { RegisterComponent } from './components/pages/register/register.componen
     VideoComponent,
     ProcessComponent,
     HeaderOneComponent,
-    HomeTwoComponent,
     PartnerComponent,
     HeaderTwoComponent,
-    HomeThreeComponent,
-    HomeFourComponent,
     InstagramComponent,
     HeaderThreeComponent,
     AboutComponent,
