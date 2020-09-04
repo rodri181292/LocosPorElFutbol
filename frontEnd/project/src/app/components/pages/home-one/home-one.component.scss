@@ -4,7 +4,10 @@
     border: none !important;
     padding: 0;
     position: absolute;
+}
 
+.form-group.hidden.calendar div.input-group input{
+    border: none;
 }
 
 .custom-day {
