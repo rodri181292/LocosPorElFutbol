@@ -5,16 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeOneComponent } from './components/pages/home-one/home-one.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
-import { AppDownloadComponent } from './components/common/app-download/app-download.component';
 import { FeedbackComponent } from './components/common/feedback/feedback.component';
 import { VideoComponent } from './components/common/video/video.component';
 import { ProcessComponent } from './components/common/process/process.component';
 import { HeaderOneComponent } from './components/layouts/header-one/header-one.component';
-import { HomeTwoComponent } from './components/pages/home-two/home-two.component';
 import { PartnerComponent } from './components/common/partner/partner.component';
 import { HeaderTwoComponent } from './components/layouts/header-two/header-two.component';
-import { HomeThreeComponent } from './components/pages/home-three/home-three.component';
-import { HomeFourComponent } from './components/pages/home-four/home-four.component';
 import { InstagramComponent } from './components/common/instagram/instagram.component';
 import { HeaderThreeComponent } from './components/layouts/header-three/header-three.component';
 import { AboutComponent } from './components/pages/about/about.component';
@@ -47,22 +43,19 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
 import { LoginComponent } from './components/pages/login/login.component';
 import { RegisterComponent } from './components/pages/register/register.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeOneComponent,
     FooterComponent,
-    AppDownloadComponent,
     FeedbackComponent,
     VideoComponent,
     ProcessComponent,
     HeaderOneComponent,
-    HomeTwoComponent,
     PartnerComponent,
     HeaderTwoComponent,
-    HomeThreeComponent,
-    HomeFourComponent,
     InstagramComponent,
     HeaderThreeComponent,
     AboutComponent,
@@ -98,7 +91,8 @@ import { RegisterComponent } from './components/pages/register/register.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
